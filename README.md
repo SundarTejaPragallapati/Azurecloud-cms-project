@@ -67,3 +67,15 @@ All Python dependencies are stored in the requirements.txt file. To install them
     ```
 - Check [here](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/install-microsoft-odbc-driver-sql-server-macos?view=sql-server-ver15) to add SQL Server drivers for Mac.
 - If you get an error when installing the dependencies `AttributeError: module 'collections' has no attribute 'MutableMapping'`, verify that you are on Python version 3.12 as there are known incompatibility issues with 3.10
+
+
+## Project Screenshots
+
+All deployment evidence required by the rubric is available in the `/screenshots` folder:
+
+1. Article CMS running on Azure
+2. Resource Group with all resources
+3. SQL tables and query results
+4. Blob storage endpoint
+5. Microsoft Entra ID Redirect URIs
+6. Application logs showing successful and failed login attempts
